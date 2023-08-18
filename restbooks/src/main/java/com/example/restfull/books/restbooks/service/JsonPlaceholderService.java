@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class JsonPlaceholderService {
 
-    private final String API_BASE_URL = "https://jsonplaceholder.typicode.com";
+    private static final String API_BASE_URL = "https://jsonplaceholder.typicode.com";
     private final RestTemplate restTemplate;
 
     @Autowired
